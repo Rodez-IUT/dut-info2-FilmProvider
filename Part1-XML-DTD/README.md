@@ -1,4 +1,4 @@
-# Partie 1 - XML, DTD, XSLT, XSD
+# Partie 1 - XML et DTD
 
 ## Exercice XML1 - Document XML Bien Formé
 
