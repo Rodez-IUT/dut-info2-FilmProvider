@@ -50,7 +50,7 @@ Les auteurs sont définis de deux manières possibles exclusives :
 - Soit une liste non limitée d'auteurs (au moins un), ayant chacun un nom obligatoire et un prénom optionnel,
 - Soit un unique élément &lt;collectif&gt;, contenant 2 sous-éléments &lt;direction&gt; et &lt;membres&gt;. Le premier (direction) est 
 semblable à un auteur, avec un nom et un prénom optionnel. Le second (membres) est un texte libre.
-
+  
 La description est semblable à l'en-tête, texte et balises HTML mêlés.  
 Le prix contient, outre la valeur d'achat du livre, l'indication de la devise (euro ou livre ou dollar, euro par défaut) 
 et du type (HT ou TTC, HT par défaut). On souhaite qu'un attribut 'tva' soit automatiquement fixé à la valeur constante "5.5".  
