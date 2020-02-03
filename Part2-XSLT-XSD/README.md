@@ -8,10 +8,9 @@ Ouvrir le fichier "FilmProvider.xml" disponible dans les ressources et  écrire 
 2. Sélectionner le résumé (texte uniquement) du film dont le titre est "Minority Report".
 3. Sélectionner le nom du dernier réalisateur dans l'ordre du document.
 4. Sélectionner le titre du deuxième film dans l'ordre du document.
-5. Sélectionner la position dans l'ordre du document des films dont le texte du résumé contient le mot « mafia ».
-6. Sélectionner les titres des films pour lesquels une image est disponible.
-7. Sélectionner les dates des films de Scorcese.
-8. Retourner  le nombre de films sortis en 2003.
+5. Sélectionner les titres des films pour lesquels une image est disponible.
+6. Sélectionner les dates des films de Scorcese.
+7. Retourner  le nombre de films sortis en 2003.
 
 > fix #2.1 requêtes XPATH
 
