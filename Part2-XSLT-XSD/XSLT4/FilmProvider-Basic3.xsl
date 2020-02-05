@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
-    <xsl:template match="/">
+    <xsl:template match="/films">
         <html>
             <head>
                 <title>Films</title>
@@ -17,7 +17,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:apply-templates select="//film"/>
+                        <xsl:apply-templates select="film"/>
                     </tbody> 
                 </table>
             </body>
