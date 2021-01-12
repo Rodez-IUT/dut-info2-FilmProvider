@@ -4,6 +4,7 @@
 ### Prénom : John
 ### Groupe de TP : 
 - [x] 1
+- [ ] 2
 
 ### 0. Création et initialisation du projet "FilmProvider"
 
