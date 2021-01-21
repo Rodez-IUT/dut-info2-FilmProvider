@@ -7,9 +7,9 @@
 <!ELEMENT nom (#PCDATA)>
 
 <!ELEMENT film (titre, resume)>
-<!ATTLIST film id_film             ID              #REQUIRED
-                        id_realisateur IDREF        #REQUIRED
-                        annee             NMTOKEN #REQUIRED>
+<!ATTLIST film id_film ID #REQUIRED
+               id_realisateur IDREF #REQUIRED
+               annee NMTOKEN #REQUIRED>
 
 <!ELEMENT titre (#PCDATA)>
 
