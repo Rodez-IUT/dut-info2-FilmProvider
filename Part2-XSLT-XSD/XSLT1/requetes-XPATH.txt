@@ -17,22 +17,13 @@
 //film[position() = 2]/titre
 //film[2]/titre
 
-5. Sélectionner la position dans l'ordre du document des films dont le texte du résumé contient le
-mot « mafia ».
-
-//film[contains(resume/text,"mafia")]/position() n'est pas une solution car la liste
-courante est la liste résultante à deux éléments
-//film[contains(resume/text,"mafia")]/number(count(preceding-sibling::film) + 1)
-
-NB : cette requête ne fonctionne pas dans IntelliJ => à oublier...
-
-6. Sélectionner les titres des films pour lesquels une image est disponible.
+5. Sélectionner les titres des films pour lesquels une image est disponible.
 
 //film[boolean(resume/image) = true()]/titre
 
-7. Sélectionner les dates des films de Scorcese.
+6. Sélectionner les dates des films de Scorcese.
 
 //film[//realisateur[nom="Scorsese"]/@id_realisateur = @id_realisateur]/@annee
 
-8. Retourner le nombre de films sortis en 2003.
+7. Retourner le nombre de films sortis en 2003.
 count(//film[@annee = 2003])
