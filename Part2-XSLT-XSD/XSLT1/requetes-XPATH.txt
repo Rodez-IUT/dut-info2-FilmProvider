@@ -20,10 +20,11 @@
 5. Sélectionner les titres des films pour lesquels une image est disponible.
 
 //film[boolean(resume/image) = true()]/titre
+//film[boolean(resume/image)]/titre
 
 6. Sélectionner les dates des films de Scorcese.
 
-//film[//realisateur[nom="Scorsese"]/@id_realisateur = @id_realisateur]/@annee
+//film[@id_realisateur = //realisateur[nom="Scorsese"]/@id_realisateur]/@annee
 
 7. Retourner le nombre de films sortis en 2003.
 count(//film[@annee = 2003])
