@@ -28,8 +28,8 @@
         <tr>
             <td><xsl:value-of select="titre"/></td>
             <td><xsl:value-of select="resume/text"/></td>
-            <xsl:variable name="currentIdRes" select="@id_realisateur"></xsl:variable>
-            <td><xsl:apply-templates select="//realisateur[@id_realisateur = $currentIdRes]"></xsl:apply-templates></td>
+            <xsl:variable name="currentIdRes" select="@id_realisateur"/>
+            <td><xsl:apply-templates select="//realisateur[@id_realisateur = $currentIdRes]"/></td>
         </tr>
     </xsl:template>
     
